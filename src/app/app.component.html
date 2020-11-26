@@ -1,0 +1,11 @@
+
+<div>
+  <mat-form-field appearance="outline">
+    <mat-label>Parent Component</mat-label>
+    <input matInput placeholder="Enter here"  [(ngModel)]='master'>
+  </mat-form-field>
+</div>
+
+<app-child [childToMaster]=master (click)="childToParent(master)">
+  
+</app-child>

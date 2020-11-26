@@ -1,0 +1,10 @@
+
+    <!-- <button (click)="sendToParent(masterName)" >sendToParent</button> -->
+    <mat-form-field appearance="outline">
+        <mat-label>Child Component</mat-label>
+        <input matInput placeholder="Enter here" [(ngModel)]='masterName' >
+      </mat-form-field>
+      <div>
+        <button mat-raised-button color="primary" (click)="sendToParent(masterName)" mat-button>Send To Parent</button>
+
+      </div>
