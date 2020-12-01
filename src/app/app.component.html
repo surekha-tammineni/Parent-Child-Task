@@ -6,6 +6,6 @@
   </mat-form-field>
 </div>
 
-<app-child [childToMaster]=master (click)="childToParent(master)">
+<app-child [childToMaster]=master (childToParent)="childToParent($event)">
   
 </app-child>
