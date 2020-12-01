@@ -8,7 +8,7 @@ import { FormBuilder, FormGroup } from '@angular/forms';
 })
 export class AppComponent {
   title = 'parent-childTask';
- master : string="send from parent";
+ master : string="";
   
  childToParent(name: any){
    this.master=name;
