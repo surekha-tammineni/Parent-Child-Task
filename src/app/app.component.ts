@@ -10,7 +10,7 @@ export class AppComponent {
   title = 'parent-childTask';
  master : string="send from parent";
   
- childToParent(name: string){
+ childToParent(name: any){
    this.master=name;
  }
 }
